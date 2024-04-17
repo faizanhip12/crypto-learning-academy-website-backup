@@ -120,7 +120,7 @@ const Header = ({ scrollToSection, sectionRefs }: any) => {
                 </li>
 
                 <li onClick={toggleDivVisibility} className={styles.signIn_btn}>
-                  <Link href="https://app.smartchainacademy.com/login/">
+                  <Link href="https://cryptolearningacademy.com/login/">
                     Sign In
                   </Link>
                 </li>
@@ -130,7 +130,7 @@ const Header = ({ scrollToSection, sectionRefs }: any) => {
           <div className={`col-md-2 d-none d-lg-block ${styles.btncol}`}>
             <div className={styles.header_btn}>
               <Link
-                href="https://app.smartchainacademy.com/login/"
+                href="https://cryptolearningacademy.com/login/"
                 className={styles.signin}
               >
                 Sign in
@@ -139,7 +139,7 @@ const Header = ({ scrollToSection, sectionRefs }: any) => {
                 text="Sign up"
                 icon={FaArrowRight}
                 variant="brown"
-                url="https://app.smartchainacademy.com/signup/"
+                url="https://cryptolearningacademy.com/signup/"
               />
 
               {/* <AiOutlineArrowRight /> */}

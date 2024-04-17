@@ -95,7 +95,7 @@ const Footer = () => {
 
         <div className="row">
           <div className={styles.footer_bottom}>
-            <p>Copyright © 2023 Smart Chain Academy. All Rights Reserved.</p>
+            <p>Copyright © 2023 Crypto Learning Academy. All Rights Reserved.</p>
           </div>
         </div>
       </div>

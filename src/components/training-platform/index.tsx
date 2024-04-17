@@ -56,7 +56,7 @@ const Training = (props: IProps) => {
         <Heading
           TextAlignment="left"
           title="Training Platform"
-          gradienttext="Smart Chain Academy"
+          gradienttext="Crypto Learning Academy"
         />
         <div className="row">
           {video?.map((video, index) => {

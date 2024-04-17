@@ -51,7 +51,7 @@ export default function Home() {
           para="Explore your purpose"
         />
       </div>
-      {/* <Heading title="Smart Chain Academy" titleSpan=""/>   */}
+      {/* <Heading title="Crypto Learning Academy" titleSpan=""/>   */}
 
       <div ref={sectionRefs?.courses}>
         <Training subtitle="Increase your network and enable a top opportunities" />

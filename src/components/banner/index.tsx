@@ -27,7 +27,7 @@ const Banner = () => {
           <SwiperSlide>
             <div className={styles.banner_content}>
               <h1>
-                Join Smart Chain Academy to enable your institution to unlock
+                Join Crypto Learning Academy to enable your institution to unlock
                 new revenue streams through crypto education.
               </h1>
               <div className={styles.banner_btn}>
@@ -35,7 +35,7 @@ const Banner = () => {
                   text="Sign up"
                   icon={FaArrowRight}
                   variant="brown"
-                  url="https://app.smartchainacademy.com/signup/"
+                  url="https://cryptolearningacademy.com/signup/"
                 />
               </div>
             </div>
@@ -44,7 +44,7 @@ const Banner = () => {
           <SwiperSlide>
             <div className={styles.banner_content}>
               <h1>
-                Join Smart Chain Academy to enable your institution to unlock
+                Join Crypto Learning Academy to enable your institution to unlock
                 new revenue streams through crypto education.
               </h1>
               <div className={styles.banner_btn}>
@@ -52,7 +52,7 @@ const Banner = () => {
                   text="Sign up"
                   icon={FaArrowRight}
                   variant="brown"
-                  url="/"
+                  url="https://cryptolearningacademy.com/signup/"
                 />
               </div>
             </div>
@@ -61,7 +61,7 @@ const Banner = () => {
           <SwiperSlide>
             <div className={styles.banner_content}>
               <h1>
-                Join Smart Chain Academy to enable your institution to unlock
+                Join Crypto Learning Academy to enable your institution to unlock
                 new revenue streams through crypto education.
               </h1>
               <div className={styles.banner_btn}>
@@ -69,7 +69,7 @@ const Banner = () => {
                   text="Sign up"
                   icon={FaArrowRight}
                   variant="brown"
-                  url="/"
+                  url="https://cryptolearningacademy.com/signup/"
                 />
               </div>
             </div>
@@ -78,7 +78,7 @@ const Banner = () => {
           <SwiperSlide>
             <div className={styles.banner_content}>
               <h1>
-                Join Smart Chain Academy to enable your institution to unlock
+                Join Crypto Learning Academy to enable your institution to unlock
                 new revenue streams through crypto education.
               </h1>
               <div className={styles.banner_btn}>
@@ -86,7 +86,7 @@ const Banner = () => {
                   text="Sign up"
                   icon={FaArrowRight}
                   variant="brown"
-                  url="/"
+                  url="https://cryptolearningacademy.com/signup/"
                 />
               </div>
             </div>
@@ -95,7 +95,7 @@ const Banner = () => {
           <SwiperSlide>
             <div className={styles.banner_content}>
               <h1>
-                Join Smart Chain Academy to enable your institution to unlock
+                Join Crypto Learning Academy to enable your institution to unlock
                 new revenue streams through crypto education.
               </h1>
               <div className={styles.banner_btn}>
@@ -103,7 +103,7 @@ const Banner = () => {
                   text="Sign up"
                   icon={FaArrowRight}
                   variant="brown"
-                  url="/"
+                  url="https://cryptolearningacademy.com/signup/"
                 />
               </div>
             </div>
