@@ -1,0 +1,73 @@
+button.playBtn {
+  width: 110px;
+  height: 110px;
+  background: no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.video_card {
+  position: relative;
+}
+
+.video_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+button.playBtn img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+.video_card video {
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.video_card video[poster] {
+  height: 100%;
+  width: 100%;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1.6/1;
+}
+
+/* responsive */
+
+@media (max-width: 1750px) {
+  /* .video_card video {
+    height: 250px !important;
+  } */
+  button.playBtn {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 1600px) {
+  button.playBtn {
+    width: 90px;
+    height: 90px;
+  }
+}
+@media (max-width: 1440px) {
+  button.playBtn {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 1200px) {
+  button.playBtn {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 991px) {
+  .video_card video {
+    height: 200px !important;
+  }
+}

@@ -1,0 +1,197 @@
+
+.mainbtn {
+    
+    color: #fff;
+    border: none;
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 25px;
+    border-radius: 36px;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    transition: all .5s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s ease-in-out;
+}
+.mainbtn:hover {
+
+    color: #fff;
+}
+.white {
+    background: #fff;
+    transition: all .5s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.white:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: var(--gradient, linear-gradient(0deg, #EFD9AE 0%, #B4772C 100%));
+    border-radius: inherit;
+    z-index: -1;
+    transition: .3s ease-in-out;
+}
+
+.white:hover:before {
+    width: 100%;
+}
+
+.brown {
+
+    /* background: linear-gradient(90deg, #DC9101 0%, #442804 100%); */
+
+    background: var(--gradient, linear-gradient(0deg, #EFD9AE 0%, #B4772C 100%));
+    transition: all .5s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #fff;
+    border:0;
+}
+.brown:hover {
+    color:#000;
+}
+.brown:hover span{
+    background: linear-gradient(90deg, #DC9101 0%, #442804 100%);
+    color: #fff;
+    transform: rotate(0deg);
+}
+.brown:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #FFF;
+    border-radius: inherit;
+    z-index: -1;
+    transition: .3s ease-in-out;
+}
+.brown:hover:before {
+    width: 100%;
+}
+.mainbtn span {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transform: rotate(-45deg);
+    transition: all .8s ease;
+}
+
+
+.mainbtn span svg {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+@media (max-width: 1750px) {
+    
+    .mainbtn {
+
+        max-width: 190px;
+        font-size: 15px;
+        padding: 11px 23px;
+    }
+    .mainbtn span svg {
+        height: 18px;
+        width: 18px;
+    }
+    .mainbtn span { 
+     
+        height: 33px;
+        width: 33px;
+    }
+    
+  }
+  @media (max-width: 1600px) {
+
+    .mainbtn {
+
+        max-width: 180px;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .mainbtn span svg {
+        height: 16px;
+        width: 16px;
+    }
+    .mainbtn span { 
+     
+        height: 30px;
+        width: 30px;
+    }
+  }
+  @media (max-width: 1440px) {
+    .mainbtn {
+
+        max-width: 150px;
+        font-size: 12px;
+        padding: 8px 18px;
+    }
+    .mainbtn span svg {
+        height: 14px;
+        width: 14px;
+    }
+    .mainbtn span { 
+     
+        height: 26px;
+        width: 26px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .mainbtn {
+
+        max-width: 120px;
+        font-size: 10px;
+        padding: 6px 16px;
+    }
+    .mainbtn span svg {
+        height: 12px;
+        width: 12px;
+    }
+    .mainbtn span { 
+     
+        height: 22px;
+        width: 22px;
+    }
+  }
+  @media(max-width:991px) {
+
+    .mainbtn {
+
+        max-width: 130px;
+        padding: 6px 16px;
+        font-size: 12px;
+    }
+
+  }
+
+  @media(max-width:767px)  {
+
+    .mainbtn {
+
+        max-width: 120px;
+        font-size: 11px;
+        padding: 6px 16px;
+    }
+  }

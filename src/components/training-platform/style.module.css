@@ -1,0 +1,100 @@
+.text h5{
+
+color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: -1.2px;
+padding: 30px 0;
+
+}
+.gradient_border {
+
+    padding: 1px 1px 0 1px;
+    position: relative;
+    border-radius: 10px;
+    /* background: linear-gradient(179deg, #2B2A2A -6.38%, rgba(43, 42, 42, 0.00) 106.71%); */
+    background: linear-gradient(179deg, #BF6700, #BF670000);
+    margin-bottom: 40px;
+}
+
+.video_box {
+    padding:25px;
+    background:#08090a;
+
+    border-radius: inherit;
+}
+
+
+/* responsive css */
+
+@media(max-width:1750px) {
+
+    .text h5{
+
+       
+        font-size: 22px;
+        padding: 23px 0;
+        
+        }
+
+}
+
+@media(max-width:1600px) {
+
+    .text h5{
+
+       
+        font-size: 20px;
+        padding: 22px 0;
+        
+        }
+
+}
+@media(max-width:1440px) {
+
+    .text h5{
+
+       
+        font-size: 18px;
+        padding: 20px 0;
+        
+        }
+
+}
+@media(max-width:1440px) {
+
+    .text h5{
+
+       
+        font-size: 16px;
+        padding: 18px 0;
+        
+        }
+
+}
+@media(max-width:991px) {
+ 
+    .text h5{
+
+       
+        font-size: 20px;
+        line-height: 1.2; 
+        padding: 25px 0;
+        
+        }
+    
+}
+
+@media(max-width:575px) {
+ 
+    .text h5{
+
+       
+        font-size: 16px;
+        line-height: 1.2; 
+        padding: 22px 0;
+        
+        }
+    
+}

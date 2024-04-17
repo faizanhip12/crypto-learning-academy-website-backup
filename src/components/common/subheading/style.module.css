@@ -1,0 +1,124 @@
+.padding_tb {
+  padding: 40px 0;
+}
+.subheading {
+  color: #fff;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 1.2; /* 75px */
+  letter-spacing: -3px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+.para {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2; /* 40.2px */
+  letter-spacing: -0.72px;
+}
+
+/* responsive css */
+
+@media (max-width: 1750px) {
+  .padding_tb {
+    padding: 35px 0;
+  }
+  .subheading {
+    font-size: 55px;
+    padding-bottom: 26px;
+  }
+  .para {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1600px) {
+    .padding_tb {
+      padding: 30px 0;
+    }
+    .subheading {
+      font-size: 50px;
+      padding-bottom: 22px;
+    }
+    .para {
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .padding_tb {
+      padding: 25px 0;
+    }
+    .subheading {
+      font-size: 45px;
+      padding-bottom: 20px;
+    }
+    .para {
+      font-size: 18px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .padding_tb {
+      padding: 20px 0;
+    }
+    .subheading {
+      font-size: 40px;
+      padding-bottom: 15px;
+    }
+    .para {
+      font-size: 16px;
+    }
+  }
+
+@media (max-width: 991px) {
+  .padding_tb {
+    padding: 20px 0;
+  }
+  .subheading {
+    font-size: 40px;
+    line-height: 1.2; /* 75px */
+    padding-bottom: 20px;
+  }
+  .para {
+    font-size: 18px;
+    line-height: 1.2; /* 40.2px */
+    letter-spacing: -0.72px;
+  }
+}
+
+@media (max-width: 767px) {
+  .padding_tb {
+    padding: 18px 0;
+  }
+  .subheading {
+    font-size: 32px;
+    line-height: 1.2; /* 75px */
+    padding-bottom: 20px;
+  }
+  .para {
+    font-size: 15px;
+    line-height: 1.2; /* 40.2px */
+    letter-spacing: -0.72px;
+  }
+}
+
+@media (max-width: 575px) {
+  .padding_tb {
+    padding: 16px 0;
+  }
+  .subheading {
+    font-size: 22px;
+    line-height: 1.2; /* 75px */
+    padding-bottom: 15px;
+    letter-spacing: -0.7px;
+  }
+  .para {
+    font-size: 15px;
+    line-height: 1.2; /* 40.2px */
+    letter-spacing: -0.72px;
+  }
+}

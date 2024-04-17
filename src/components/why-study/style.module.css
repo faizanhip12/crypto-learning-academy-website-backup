@@ -1,0 +1,204 @@
+/* .cardShadow {
+
+    border-radius: 33.777px;
+    border: 1.167px solid #FFF;
+    background: linear-gradient(120deg, #2B2A2A 4.23%, rgba(0, 0, 0, 0.00) 97.72%);
+    position: relative;
+    max-width: 82%;
+    margin: 0 auto;
+}
+.cardBox {
+
+    padding: 48px 45px 75px 90px;
+
+} */
+
+.cardShadow {
+  border-radius: 33.777px;
+  position: relative;
+  max-width: 82%;
+  margin: 0 auto;
+  padding: 1px;
+  background: linear-gradient(180deg, #ffffff, #ffffff00);
+  height: 100%;
+}
+.cardBox {
+  padding: 48px 45px 75px 90px;
+  background: linear-gradient(120deg, #2b2a2a 34.23%, transparent 220%);
+  border-radius: inherit;
+  height: 100%;
+}
+.cardBox img {
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  transform: translateY(-50%);
+}
+.boxText {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -1.659px;
+  max-width: 85%;
+}
+
+.boxPara {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.14px;
+}
+
+/* responsive css */
+
+@media (max-width: 1600px) {
+  .cardBox {
+    padding: 45px 42px 60px 82px;
+  }
+  .cardBox img {
+    height: 90px;
+    width: 90px;
+  }
+  .boxText {
+    font-size: 25px;
+    line-height: 1.2;
+    max-width: 81%;
+    margin-bottom: 20px;
+    letter-spacing: 0.659px;
+  }
+
+  .boxPara {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 1440px) {
+  .cardBox {
+    padding: 38px 35px 50px 60px;
+  }
+  .cardBox img {
+    height: 90px;
+    width: 90px;
+  }
+  .boxText {
+    font-size: 22px;
+    max-width: 80%;
+    margin-bottom: 18px;
+    letter-spacing: 0.659px;
+  }
+
+  .boxPara {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardBox {
+    padding: 35px 28px 45px 50px;
+  }
+  .cardBox img {
+    height: 80px;
+    width: 80px;
+  }
+  .boxText {
+    font-size: 18px;
+    max-width: 80%;
+    margin-bottom: 16px;
+  }
+
+  .boxPara {
+    font-size: 11px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 991px) {
+  .studyRow {
+    justify-content: center;
+  }
+  .cardShadow {
+    margin-bottom: 35px;
+  }
+  .cardBox {
+    padding: 30px 35px 25px 55px;
+  }
+  .cardBox img {
+    height: 90px;
+    width: 90px;
+  }
+  .boxText {
+    font-size: 21px;
+    line-height: 1.2;
+    max-width: 85%;
+    margin-bottom: 20px;
+  }
+
+  .boxPara {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .studyCol {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cardShadow {
+    margin-bottom: 32px;
+  }
+  .cardBox {
+    padding: 25px 25px 25px 40px;
+  }
+  .cardBox img {
+    height: 75px;
+    width: 75px;
+  }
+  .boxText {
+    font-size: 20px;
+    line-height: 1.2;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .boxPara {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 575px) {
+  .cardShadow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .cardBox {
+    padding: 50px 20px 20px 20px;
+  }
+
+  .cardBox img {
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateY(-5);
+    transform: translate(-50%, -30px);
+  }
+  .boxText {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .boxPara {
+    font-size: 11px;
+    line-height: 1.3;
+    text-align: center;
+  }
+}
